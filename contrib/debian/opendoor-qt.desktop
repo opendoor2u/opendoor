@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Opendoor
+Comment=Opendoor P2P Cryptocurrency
+Comment[fr]=Opendoor, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Opendoor, eşten eşe kriptografik sanal para birimi
+Exec=opendoor-qt %u
+Terminal=false
+Type=Application
+Icon=opendoor128
+MimeType=x-scheme-handler/opendoor;
+Categories=Office;Finance;

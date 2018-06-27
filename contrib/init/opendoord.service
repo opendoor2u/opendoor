@@ -1,0 +1,22 @@
+[Unit]
+Description=Opendoor's distributed currency daemon
+After=network.target
+
+[Service]
+User=opendoorcore
+Group=opendoorcore
+
+Type=forking
+PIDFile=/var/lib/opendoord/opendoord.pid
+ExecStart=/usr/bin/opendoord -daemon -pid=/var/lib/opendoord/opendoord.pid \
+-conf=/etc/opendoorcore/opendoor.conf -datadir=/var/lib/opendoord -disablewallet
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

@@ -123,7 +123,7 @@ public:
 };
 
 /**
- * Dash RPC command dispatcher.
+ * Opendoor RPC command dispatcher.
  */
 class CRPCTable
 {

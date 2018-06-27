@@ -1,0 +1,6 @@
+usr/local/bin/opendoor-qt usr/bin
+share/pixmaps/opendoor32.xpm usr/share/pixmaps
+share/pixmaps/opendoor16.xpm usr/share/pixmaps
+share/pixmaps/opendoor128.png usr/share/pixmaps
+debian/opendoor-qt.desktop usr/share/applications
+debian/opendoor-qt.protocol usr/share/kde4/services/
