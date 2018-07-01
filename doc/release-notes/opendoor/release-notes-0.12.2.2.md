@@ -128,7 +128,7 @@ See detailed [change log](https://github.com/opendoor2u/opendoor/compare/v0.12.2
 - [`09b3e042f`](https://github.com/opendoor2u/opendoor/commit/09b3e042f) Backport #9310: Assert FRESH validity in CCoinsViewCache::BatchWrite
 - [`ceb64fcd4`](https://github.com/opendoor2u/opendoor/commit/ceb64fcd4) Backport #8610: Share unused mempool memory with coincache
 - [`817ecc03d`](https://github.com/opendoor2u/opendoor/commit/817ecc03d) Backport #9353: Add data() method to CDataStream (and use it)
-- [`249db2776`](https://github.com/opendoor2u/opendoor/commit/249db2776) Backport #9999: [LevelDB] Plug leveldb logs to bitcoin logs
+- [`249db2776`](https://github.com/opendoor2u/opendoor/commit/249db2776) Backport #7111: [LevelDB] Plug leveldb logs to bitcoin logs
 - [`cfefd34f4`](https://github.com/opendoor2u/opendoor/commit/cfefd34f4) Backport #10126: Compensate for memory peak at flush time
 - [`ff9b2967a`](https://github.com/opendoor2u/opendoor/commit/ff9b2967a) Backport #10133: Clean up calculations of pcoinsTip memory usage
 - [`567043d36`](https://github.com/opendoor2u/opendoor/commit/567043d36) Make DisconnectBlock and ConnectBlock static in validation.cpp
