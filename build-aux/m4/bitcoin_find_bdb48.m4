@@ -4,7 +4,7 @@ AC_DEFUN([BITCOIN_FIND_BDB48],[
   BDB_LIBS=
   bdbpath=X
   bdb48path=X
-  bdbdirlist=
+  bdbdirlist=/home/buend/opendoor/db-4.8.30.NC/build_unix
   for _vn in 4.8 48 4 5 ''; do
     for _pfx in b lib ''; do
       bdbdirlist="$bdbdirlist ${_pfx}db${_vn}"
